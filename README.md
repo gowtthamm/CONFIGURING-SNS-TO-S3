@@ -6,3 +6,7 @@ PROCEDURE:
 01.	Create Topic and add Subscription Inside  the Topic  : TOPIC  ARN  = Task
 02.	Select The Portal  :  Email ¬ - Enter Your Mail and Click Create Subscription 
 
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/60fbede38a61a78fa57f92c0ce5a48b4c9501379/EMAIL.png"/>
+
+03.	Now Create One Simple Normal S3 Bucket  :  gowthamnotification
+
