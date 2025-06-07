@@ -30,6 +30,16 @@ PROCEDURE:
 
 11.	 Create  Event Notification : Object Creation = Add Notification Settings ( Put )
 
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/7d78bf3bcb2feda488dcd374ca4174506568f4ef/Put.png">
+
+12. 12.	Destination : SNS TOPIC
+13.	Specify SNS TOPIC  :  Choose your SNS Topic  -  Choose The SNS Topic (TASK) – Save Changes
+
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/7d78bf3bcb2feda488dcd374ca4174506568f4ef/Destination.png"/>
+14. 	Now ADD ANY FILE IN THE BUCKET AND CHECK THE MAIL  ( NOTIFICATION )
+
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/7d78bf3bcb2feda488dcd374ca4174506568f4ef/Output.jpg"/>
+
 
 
 
