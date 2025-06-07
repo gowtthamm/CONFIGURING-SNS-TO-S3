@@ -19,4 +19,13 @@ PROCEDURE:
 
 06. Copy and Paste The ARN ID  in  ( "Resource": "SNS-topic-ARN", )
 
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/aed05927b098519caa191bf7c9dc8994d10db43f/ARN.png"/>
+
+07. 07.	Same, Copy and paste The Bucket Name  in ("aws:SourceArn": "arn:aws:s3:*:*:bucket-name")
+08.	Same that Copy and Paste The Owner ID in ("aws:SourceAccount": "bucket-owner-account-id")
+09.	Click  Save Changes 
+10.	Now , Go to S3 Bucket (gowthamnotification) -  Properties  - Event Notification
+
+
+
 
