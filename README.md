@@ -10,3 +10,37 @@ PROCEDURE:
 
 03.	Now Create One Simple Normal S3 Bucket  :  gowthamnotification
 
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/4f2668619fc91694c9f10fee52a8a0e711a437d6/Notification.png"/>
+
+04.	Now Configure SNS To S3 (Task – gowthamnotification  )
+05.	Go to SNS : Topic – select Task – Access Policy  (Edit) – Clear  Existing Code and add this :-
+
+   {
+    "Version": "2012-10-17",
+    "Id": "example-ID",
+    "Statement": [
+        {
+            "Sid": "Example SNS topic policy",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "s3.amazonaws.com"
+            },
+            "Action": [
+                "SNS:Publish"
+            ],
+            "Resource": "SNS-topic-ARN",
+            "Condition": {
+                "ArnLike": {
+                    "aws:SourceArn": "arn:aws:s3:*:*:bucket-name"
+                },
+                "StringEquals": {
+                    "aws:SourceAccount": "bucket-owner-account-id"
+                }
+            }
+        }
+    ]
+}                  
+
+06. Copy and Paste The ARN ID  in  ( "Resource": "SNS-topic-ARN", )
+
+
