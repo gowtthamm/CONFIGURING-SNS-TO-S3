@@ -38,7 +38,7 @@ PROCEDURE:
 <img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/7d78bf3bcb2feda488dcd374ca4174506568f4ef/Destination.png"/>
 14. 	Now ADD ANY FILE IN THE BUCKET AND CHECK THE MAIL  ( NOTIFICATION )
 
-<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/7d78bf3bcb2feda488dcd374ca4174506568f4ef/Output.jpg"/>
+<img src="https://github.com/gowtthamm/Configuring-SNS---S3-Practice/blob/7d78bf3bcb2feda488dcd374ca4174506568f4ef/Output.jpg" width="200" height="400"/>
 
 
 
